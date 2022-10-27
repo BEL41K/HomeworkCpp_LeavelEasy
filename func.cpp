@@ -87,21 +87,21 @@ int itc_sqrt(int num) { // 11 - КОРЕНЬ числа ВТФ / square root
   return -1;
 }
 
-int itc_skv(int num) { // 12 - площадь квадрата / 
+int itc_skv(int num) { // 12 - площадь квадрата / area of square 
   if (num > 0)
     return num * num;
   else
     return -1;
 }
 
-int itc_spr(int a, int b) { // 13 - площадь прямоугольника
+int itc_spr(int a, int b) { // 13 - площадь прямоугольника / area of rectangle 
   if (a > 0 && b > 0)
     return a * b;
   else
     return -1;
 }
 
-int itc_str(int a, int b, int c) { // 14 - площадь треугольника / area of square 
+int itc_str(int a, int b, int c) { // 14 - площадь треугольника / area of triangle 
   int p = (a + b + c) / 2, s = 0;
   s = p * (p - a) * (p - b) * (p - c);
   if (a > 0 && b > 0 && c > 0) {
