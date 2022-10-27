@@ -12,14 +12,14 @@ void itc_fio() { // 2 - фио / fullname
   cout << "***** ******";
 }
 
-int itc_abs(int num) { // 3 - модуль / returns the absolute value of the given number
+int itc_abs(int num) { // 3 - модуль / returns the absolute value of the given number ( int )
   if (num >= 0) {
     return num;
   } else
     return -num;
 }
 
-double itc_fabs(double num) { // 4 - модуль числа с точкой / returns the absolute value of the given number( but its double )
+double itc_fabs(double num) { // 4 - модуль числа с точкой / returns the absolute value of the given number( double )
   if (num >= 0) {
     return num;
   } else
