@@ -1,3 +1,5 @@
+// file for test func.cpp
+
 #include "easy.h"
 #include <iostream>
 
@@ -24,21 +26,6 @@ int main() {
   cout << itc_ispositive(-1) << endl; // 16
   itc_ispositive_d(-0.2); // 17
 
-
-  //   int n = 4000;
-  //   for (int i=0; i<n; i++){
-  //       for (int j=0; j<n; j++){
-  //           for (int l=0; l<n; l++){
-  //               int p = (i + j + l) / 2, s;
-  //               s = p * (p-i) * (p-j) * (p-l);
-  //             if (itc_sqrt(s) != -1){
-  //               cout << i << " " << j << " " << l << endl;
-  //             }
-
-    
-  // }
-  // }
-  // }
 
   return 0;
 }
