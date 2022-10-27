@@ -3,13 +3,13 @@
 using namespace std;
 void itc_name() { // 1 - имя
   setlocale(LC_ALL, "Russia");
-  cout << "Тимофей ";
+  cout << "*** ";
 }
 
 void itc_fio() { // 2 - фио
   setlocale(LC_ALL, "Russian");
   itc_name();
-  cout << "Белоусов Дмитриевич";
+  cout << "***** ******";
 }
 
 int itc_abs(int num) { // 3 - модуль
